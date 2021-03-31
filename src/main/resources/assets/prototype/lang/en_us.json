@@ -1,3 +1,4 @@
 {
-  "block.prototype.light_source": "Light Source"
+  "block.prototype.light_source": "Light Source",
+  "block.prototype.prototype_block": "Prototype Block"
 }

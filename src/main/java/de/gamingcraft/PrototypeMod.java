@@ -1,6 +1,7 @@
 package de.gamingcraft;
 
 import de.gamingcraft.blocks.LightSourceBlock;
+import de.gamingcraft.blocks.PrototypeBlock;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.BlockItem;
@@ -17,7 +18,10 @@ public class PrototypeMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		blocks.addAll(Arrays.asList(new PTMBlock(new LightSourceBlock(), "light_source")));
+		blocks.addAll(Arrays.asList(
+				new PTMBlock(new LightSourceBlock(), "light_source"),
+				new PTMBlock(new PrototypeBlock(), "prototype_block")
+		));
 
 		blocks.forEach(b -> {
 			Registry.register(Registry.BLOCK, new Identifier("prototype", b.id), b.block);
