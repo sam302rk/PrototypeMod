@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": { "model": "prototype:block/light_source" }
+  }
+}
+
