@@ -1,4 +1,4 @@
-# Prototype Mode <img src="https://www.gamingcraft.de/res/protomod.png" alt="drawing" width="36"/>
+# Prototype Mode
 
 ## Why no forge?
 Forge's API sucks. Fabric is much more elegant.<br>
